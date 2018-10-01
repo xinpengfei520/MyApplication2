@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_main_play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="play"
+        android:textColor="#00FF00"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_main_pause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="pause"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_main_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="stop"
+        android:textColor="#0000FF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_main_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="exit"
+        android:textSize="30sp" />
+
+</LinearLayout>

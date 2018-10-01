@@ -1,0 +1,2 @@
+include ':app', ':l05_handler', ':l05_app_handler', ':l05_app_download', ':l06_app_motionevent', ':l06_app_keyevent', ':l05_listviewtest', ':l07_app_playmusic', ':l07_app_music', ':l07_service', ':l07_app_endcall', ':l07_app_autoendcall', ':l08_bc', ':l08_app_br', ':l08_app_endcallsms'
+include ':l08_App_DB'
